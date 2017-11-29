@@ -1,0 +1,24 @@
+/* My Name */
+h1 {
+    height: 100px;
+    width: 20%;
+    padding:20px;
+    color: White;
+    background:Teal;
+}
+/* About Me */
+#box-aboutme {
+font-size: 50px;
+color:teal;
+}
+/* Footer */
+footer {
+    height: 100px;
+    width: 100%;
+    padding:20px;
+    color: lightgrey;
+    background:grey;
+    position:fixed;
+    bottom:0;
+    border: solid 5px teal;
+}
