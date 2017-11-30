@@ -1,24 +1,72 @@
 /* My Name */
 h1 {
+    text-align: center;
     height: 100px;
     width: 20%;
-    padding:20px;
-    color: White;
-    background:Teal;
+    padding:30px;
+    font-size: 30px;
+    color: black;
+    background:darkgrey;
+    border: solid 3px grey;
+}
+body {
+    background-image: url("../images/spiration dark.png");
+    font-size: 18px;
+}
+h2 {
+    font-size: 50px;
+    color:blue;
+    
+}
+#bioimage{
+    
+}
+#headlinks{
+    width: 100%;
+    height: 50px;
+    float:right;
+    margin-right:40px;
+    background: grey;
+    padding:10px;
+    }
+a:hover{ 
+    background: black;
+    color: grey;
+    }
+
+#sidebar{
+    float:right;
+    font-weight:bold;
+    color:blue;
+    margin:right 50px;
+    border: solid 3px lightgray;
+    padding: 20px;
+    margin-right: 20px;
+    background: white
+    
+}
+#sidebar a {
+    text-decoration: none;
 }
 /* About Me */
-#box-aboutme {
-font-size: 50px;
-color:teal;
+#box-left {
+    float:none;
+    width: 650px;
+    Height: 100%;
+    background: white;
+    margin-left: 30px;
+    border: solid 3px grey;
+    padding: 20px;
 }
 /* Footer */
 footer {
-    height: 100px;
+    text-align: center;
+    height: 40px;
     width: 100%;
     padding:20px;
     color: lightgrey;
     background:grey;
     position:fixed;
     bottom:0;
-    border: solid 5px teal;
 }
+
