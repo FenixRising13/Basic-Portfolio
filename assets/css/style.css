@@ -1,74 +1,91 @@
-/* My Name */
-h1 {
-    text-align: center;
-    height: 100px;
-    width: 20%;
-    padding:30px;
-    font-size: 30px;
-    color: black;
-    background:darkgrey;
-    border: solid 3px grey;
-}
+
 body {
     background-image: url("../images/spiration dark.png");
     font-size: 16px;
+    font-family: arial;
 }
-h2 {
-    font-weight:bold;
-    margin-left:30px;
-    font-size: 50px;
-    color:blue;
-    
-}
-#bioimage{
-    
-}
-#headlinks{
+/* Header */
+header {
+    background:#ffffff;
+    border: solid 4px #cccccc;
     width: 100%;
     height: 50px;
-    float:right;
-    margin-right:40px;
+    padding: 20px;
+}
+#links{ position:absolute;
+    font-weight:bold;
+    top:50px;
+    right:0;
+    margin-right:50px;
+}
+/* My Name */
+h1 {
+    text-align: center;
+    height: 53px;
+    width: 260px;
+    padding-top:38px;
+    font-weight: bold;
+    font-family: georgia;
+    font-size: 28px;
+    color: black;
     background: grey;
-    padding:10px;
-    }
+    position:absolute;
+    top:0px;
+    margin-top: 4px;
+    margin-left: 50px;
+}
+/* Main Section */
+#content-area {
+    width:960px;
+    height:100%;
+    background-image: url("../images/spiration dark.png");
+}
+h2 {
+    font-size: 26px;
+    font-weight:bold;
+    padding-bottom:20px;
+    font-family: georgia;
+    color:gray;
+}
+#main-section {
+    width: 650px;
+    Height: 100%;
+    background: white;
+    margin-left: 60px;
+    border: solid 3px grey;
+    padding: 20px;
+    overflow:auto;
+}
+/* Connect with me */
 a:hover{ 
-    background: black;
-    color: grey;
-    }
-
+    color: blue;
+}
 #sidebar{
-    float:right;
     font-weight:bold;
     color:blue;
     margin:right 50px;
     border: solid 3px lightgray;
     padding: 20px;
     margin-right: 20px;
-    background: white
-    
+    background: white;
+    position: fixed;
+    margin-top: 100px;
+    top:100px;
+    right:100px;
 }
 #sidebar a {
     text-decoration: none;
 }
-/* About Me */
-#box-left {
-    float:none;
-    width: 650px;
-    Height: 100%;
-    background: white;
-    margin-left: 30px;
-    border: solid 3px grey;
-    padding: 20px;
-}
 /* Footer */
 footer {
     text-align: center;
-    height: 40px;
+    height: 30px;
     width: 100%;
     padding:20px;
     color: lightgrey;
-    background:grey;
+    background:#666666;
     position:fixed;
     bottom:0;
+    border: solid 6px black
 }
 
