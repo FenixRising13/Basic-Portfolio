@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MarkPowalisz</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -13,61 +17,77 @@
 <body>
     <!-- Header -->
     <header>
-        <div>
-            <!-- Links to Other Pages -->
-            <h1>Mark Powalisz</h1>
-            <div id="links">
-                <a href="index.html" id="about">About</a>
-                &nbsp; &nbsp;
-                <a href="portfolio.html" id="portfolio">Portfolio</a>
-                &nbsp; &nbsp;
-                <a href="contact.html" id="contact">Contact</a>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">Mark Powalisz</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </nav>
     </header>
 
-
-    <br>
-
-    <div id="content_area">
-        <!-- Gallery -->
-        <br>
-        <div id="main-section">
-            <h2>Portfolio</h2>
-            <img src="assets/images/red_carpet.png" class='screenshot' alt: "red_carpet" style=width:200px;height:200px/>
-            &nbsp;
-            <img src="assets/images/psychic_game.png" class='screenshot' alt: "psychich_game" style=width:200px;height:200px/>
-            &nbsp;
-            <img src="assets/images/train_schedule.png" class='screenshot' alt: "train_schedule" style=width:200px;height:200px/>
-            <br><br>
-            <img src="assets/images/hardest_button_to_button.png" class='screenshot' alt: "hardest_button_to_button" style=width:200px;height:200px/>
-            &nbsp;
-            <img src="assets/images/pet_alliance.png" class='screenshot' alt: "pet_alliance" style=width:200px;height:200px/>
-            &nbsp;
-            <img src="assets/images/abstract-1.jpg" class='screenshot' alt: "new_project" style=width:200px;height:200px/>
+    <main>
+        <div class='container'>
+            <!-- Gallery -->
+            <div class="row">
+                <div id="main-section" class="col s8 m8 l8">
+                    <h2>Portfolio</h2>
+                    <div>
+                        <img src="assets/images/red_carpet.png" class='screenshot' alt: "red_carpet" style=width:200px;height:200px/>
+                        <a href="http://red-carpet-app.herokuapp.com/">Red Carpet</a>
+                    </div>
+                    <div>
+                        <img src="assets/images/psychic_game.png" class='screenshot' alt: "psychich_game" style=width:200px;height:200px/> &nbsp;
+                        <a href="https://fenixrising13.github.io/Psychic-Game/">Psychic Game</a>
+                    </div>
+                    <div>
+                        <img src="assets/images/train_schedule.png" class='screenshot' alt: "train_schedule" style=width:200px;height:200px/>
+                        <a href="https://fenixrising13.github.io/Train-Schedule/">Train Schedule</a>
+                    </div>
+                    <div>
+                        <img src="assets/images/hardest_button_to_button.png" class='screenshot' alt: "hardest_button_to_button" style=width:200px;height:200px/> &nbsp;
+                        <a href="https://fenixrising13.github.io/week-4-game/">Hardest Button</a>
+                    </div>
+                    <div>
+                        <img src="assets/images/pet_alliance.png" class='screenshot' alt: "pet_alliance" style=width:200px;height:200px/> &nbsp;
+                        <a href="https://petalliance.herokuapp.com/">Pet Alliance</a>
+                    </div>
+                </div>
+                <div id="sidebar" class="col s3 m3 l3">
+                    <!-- "When viewing from VS Icons Appear, but not on live site" -->
+                    Connect With Me
+                    <br>
+                    <!-- Links to Social Accounts -->
+                    <a href="https://github.com/FenixRising13" target="_blank">
+                        <img class="link" src=assets/images/git_hub.png alt="GitHub_Icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/mark-powalisz/" target="_blank">
+                        <img class="link" src=assets/images/linked_in.png alt="LinkedIn_Icon">
+                    </a>
+                    <a href="https://stackoverflow.com/users/9009095/markpowalisz" target="_blank">
+                        <img class="link" src=assets/images/stack_overflow_icon.png alt="Slack_Icon">
+                    </a>
+                </div>
+            </div>
         </div>
-        <div id="sidebar" style=color:black>
-            <!-- "When viewing from VS Icons Appear, but not on live site" -->
-            Connect With Me
-            <br>
-            <!-- Links to Social Accounts -->
-            <a href="https://github.com/FenixRising13" target="_blank">
-                <img src=assets/images/git_hub.png alt="GitHub_Icon" style="height:60px; width: 60px">
-            </a>
-            <a href="https://www.linkedin.com/in/mark-powalisz" target="_blank">
-                <img src=assets/images/linked_in.png alt="LinkedIn_Icon" style="height:60px; width: 60px">
-            </a>
-            <a href="https://stackoverflow.com/users/9009095/markpowalisz" target="_blank">
-                <img src=assets/images/stack_overflow_icon.png alt="Slack_Icon" style="height:60px; width: 60px">
-            </a>
-        </div>
+    </main>
 
-    </div>
     <!-- Footer -->
     <footer>
         © Copyright 2017 Mark Powalisz
     </footer>
 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
 </body>
 
