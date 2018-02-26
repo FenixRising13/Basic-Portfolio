@@ -5,16 +5,13 @@ body {
     background-image: url("../images/spiration dark.png");;
   }
 
-  header {
-      margin-bottom: 15px;
-  }
-
   nav {
-      background-color: grey;
+    background-color: grey;
   }
 
   main {
     flex: 1 0 auto;
+    margin-top: 20px;
   }
 
   #main-section {
