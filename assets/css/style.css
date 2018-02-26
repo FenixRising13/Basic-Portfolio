@@ -6,14 +6,7 @@ body {
   }
 
   nav {
-      background: white;
-      border-bottom: grey, 2px, solid;
-  }
-
-  .brand-logo {
-      color: grey;
-      margin-left: 20px;
-      margin-top: 20px;
+      background-color: grey;
   }
 
   main {
@@ -24,6 +17,7 @@ body {
     background: white;
     border: solid 1px black;
     border-radius: 15px;
+    height: 100%;
 }
 
   #bioimage {
