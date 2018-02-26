@@ -56,6 +56,9 @@ h2 {
     padding: 20px;
     overflow:auto;
 }
+#bioimage{
+    float:left;
+}
 /* Connect with me */
 a:hover{ 
     color: blue;
@@ -78,14 +81,17 @@ a:hover{
 }
 /* Footer */
 footer {
-    text-align: center;
+    
     height: 30px;
-    width: 100%;
     padding:20px;
     color: lightgrey;
-    background:#666666;
-    position:fixed;
-    bottom:0;
-    border: solid 6px black
+    border-top: solid 6px black;
+  	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+    text-align: center;
+    background-color: #666666;
+    color: #fff;
 }
+
 
