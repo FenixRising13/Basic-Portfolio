@@ -5,6 +5,10 @@ body {
     background-image: url("../images/spiration dark.png");;
   }
 
+  header {
+      margin-bottom: 15px;
+  }
+
   nav {
       background-color: grey;
   }
