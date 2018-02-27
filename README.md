@@ -1,2 +1,12 @@
 # Basic-Portfolio
-This is the basic-portfolio page for the week 1 homework
+
+## Description
+This is my basic portfolio
+
+## Built With
+* HTML
+* CSS
+* Materialize CSS
+
+## Author
+Mark Powalisz
