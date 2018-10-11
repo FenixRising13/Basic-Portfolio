@@ -31,7 +31,7 @@ main {
 .screenshot {
   border-radius: 15px;
   height: 200px;
-  width: 200px;
+  /* width: 200px; */
 }
 
 #sidebar {
@@ -63,4 +63,8 @@ footer {
 
 p {
   padding: 5px 0px 5px 0px;
+}
+
+a {
+  text-decoration: none;
 }
