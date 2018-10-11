@@ -23,8 +23,7 @@ main {
 }
 
 #bioimage {
-  height: 150px;
-  width: 150px;
+  height: 200px;
   float: left;
   margin: 10px;
 }
