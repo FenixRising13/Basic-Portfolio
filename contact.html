@@ -1,83 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MarkPowalisz</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>MarkPowalisz</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
 
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
 
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-
-<body>
-  <!-- Navbar -->
-  <div class="navbar navbar-light">
-    <a href="index.html" class="navbar-brand">Mark Powalisz</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="index.html">About</a>
-        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-        <a class="nav-item nav-link active" href="#">Contact <span class="sr-only">(current)</span></a>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar navbar-light">
+      <a href="index.html" class="navbar-brand">Mark Powalisz</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html">About</a>
+          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link active" href="#"
+            >Contact <span class="sr-only">(current)</span></a
+          >
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Main -->
+    <!-- Main -->
 
-  <div class="container">
-    <!-- Contact -->
-    <div class="row">
-      <div id="main-section" class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
-        <h3>Contact</h3>
-        <hr>
-        <div style="font-weight:bold;">Phone:</div>
-        <a href="tel:321-439-6067">321-439-6067</a>
-        <br>
-        <br>
-        <div style="font-weight:bold;">Location:</div>
-        <div>Orlando, FL</div>
-        <br>
-        <div style="font-weight:bold;">Email:</div>
-        <a href="mailto:markpowalisz@gmail.com">markpowalisz@gmail.com</a>
-      </div>
-      <div id="sidebar" class="col-sm-12 col-md-12 col-lg-3 col-xl-2">
-        <!-- "When viewing from VS Icons Appear, but not on live site" -->
-        <h5>Connect With Me</h5>
-        <hr>
-        <!-- Links to Social Accounts -->
-        <a href="https://github.com/mpowalisz" target="_blank">
-          <img class="link" src=assets/images/git_hub.png alt="GitHub_Icon">
-        </a>
-        <a href="https://www.linkedin.com/in/mark-powalisz/" target="_blank">
-          <img class="link" src=assets/images/linked_in.png alt="LinkedIn_Icon">
-        </a>
+    <div class="container">
+      <!-- Contact -->
+      <div class="row">
+        <div id="main-section" class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          <h3>Contact</h3>
+          <hr />
+          <div style="font-weight:bold;">Phone:</div>
+          <a href="tel:321-439-6067">321-439-6067</a>
+          <br />
+          <br />
+          <div style="font-weight:bold;">Location:</div>
+          <div>Orlando, FL</div>
+          <br />
+          <div style="font-weight:bold;">Email:</div>
+          <a href="mailto:markpowalisz@gmail.com">markpowalisz@gmail.com</a>
+        </div>
+        <div id="sidebar" class="col-sm-12 col-md-12 col-lg-3 col-xl-2">
+          <!-- "When viewing from VS Icons Appear, but not on live site" -->
+          <h5>Connect With Me</h5>
+          <hr />
+          <!-- Links to Social Accounts -->
+          <a href="https://github.com/mpowalisz" target="_blank">
+            <img class="link" src=assets/images/git_hub.png alt="GitHub_Icon">
+          </a>
+          <a href="https://www.linkedin.com/in/mark-powalisz/" target="_blank">
+            <img class="link" src=assets/images/linked_in.png
+            alt="LinkedIn_Icon">
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-  <br>
+    <br />
 
-  <!-- Footer -->
-  <footer>
-    © Copyright 2018 Mark Powalisz
-  </footer>
-</body>
-
+    <!-- Footer -->
+    <footer>
+      Published by Mark Powalisz 2020
+    </footer>
+  </body>
 </html>
