@@ -29,7 +29,7 @@ body {
 }
 
 #main-section {
-  background: white;
+  background: red;
   border-radius: 15px;
   height: 100%;
   padding: 2.5%;
@@ -49,7 +49,7 @@ body {
 }
 
 #sidebar {
-  background: white;
+  background: red;
   border: solid 1px black;
   border-radius: 15px;
   padding: 2%;
